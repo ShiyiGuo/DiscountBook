@@ -15,8 +15,7 @@
         android:theme="@style/CustomActionBarTheme"
         android:logo="@drawable/home_icon" >
         <activity
-            android:name=".HomeActivity" 
-            android:icon="@drawable/home_icon" >
+            android:name=".HomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

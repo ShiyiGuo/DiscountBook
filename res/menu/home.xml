@@ -7,16 +7,18 @@
         android:id="@+id/action_main_menu"
         android:icon="@drawable/icon_menu"
         android:title="@string/action_main_menu"
-        app:showAsAction="ifRoom"/>
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
     <item 
         android:id="@+id/action_home"
         android:icon="@drawable/home_icon"
         android:title="@string/action_home"
-        app:showAsAction="ifRoom"/>
+        android:orderInCategory="2"
+        app:showAsAction="always"/>
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="ifRoom"/>
+        android:orderInCategory="3"
+        app:showAsAction="always"/>
 
 </menu>
